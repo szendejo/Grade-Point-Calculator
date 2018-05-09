@@ -1,0 +1,91 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.csci4391.assignment4.WelcomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textWelcomeMessage"
+        android:layout_width="266dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonClassParticipation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="28dp"
+        android:text="Class Participation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWelcomeMessage" />
+
+    <Button
+        android:id="@+id/buttonAssignments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="131dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="28dp"
+        android:text="Assignments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClassParticipation" />
+
+    <Button
+        android:id="@+id/buttonQuizzes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="28dp"
+        android:text="Quizzes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAssignments" />
+
+    <Button
+        android:id="@+id/buttonFinalExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="139dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="28dp"
+        android:text="Final Exam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonQuizzes" />
+
+    <TextView
+        android:id="@+id/textViewLetterGrade"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="242dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClassParticipation" />
+
+    <TextView
+        android:id="@+id/textViewFinalScore"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="242dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewLetterGrade"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClassParticipation" />
+</android.support.constraint.ConstraintLayout>

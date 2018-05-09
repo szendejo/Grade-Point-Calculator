@@ -1,0 +1,93 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csci4391.assignment4.AssignmentsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editAssignments4"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Assignment 4 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments3" />
+
+    <EditText
+        android:id="@+id/editAssignments5"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Assignment 5 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments4" />
+
+    <EditText
+        android:id="@+id/editAssignments6"
+        android:layout_width="256dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Assignment 6 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments5" />
+
+    <EditText
+        android:id="@+id/editAssignments3"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Assignment 3 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments2" />
+
+    <EditText
+        android:id="@+id/editAssignments2"
+        android:layout_width="256dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Assignment 2 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments1" />
+
+    <EditText
+        android:id="@+id/editAssignments1"
+        android:layout_width="256dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Enter Assignment 1 Grade"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAssignmentsSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="46dp"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAssignments6" />
+
+</android.support.constraint.ConstraintLayout>
